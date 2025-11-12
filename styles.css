@@ -1,3 +1,11 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+
+
 /* custom input set appearance to none so you can customize the styling */
 .checkbox {
   appearance: none;
@@ -76,4 +84,25 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: white;
   border-radius: 4px;
   cursor: pointer;
+}
+
+
+/* registration */
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.registration-container{
+    border: 1px solid #ccc;
+    margin: 2px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+label input{
+    padding: 0;
 }

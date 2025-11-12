@@ -108,9 +108,8 @@ label input{
 }
 
 .contact-form{
-    background-color: #AAE6F5;
+    background-color: linear-gradient(right, #62bdd3 #AAE6F5 ) 
     border: 2px solid #AAE6F5;
-
 }
 
 .form-container{
@@ -119,8 +118,6 @@ label input{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .form-container form{
@@ -138,6 +135,10 @@ label input{
 }
 button[type="submit"]{
     background-color: #4CAF50;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
     color: #FFFFFF;
-    margin: 5px;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    margin: 15px 10px;
 }
